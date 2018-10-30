@@ -17,6 +17,7 @@ Steps:
  - This allows us to roll the two goals into 1 algorithm. 
  - We will first generate a json file containing the bounding boxes around the ships in the training data.
  - We will create a validation set from the training set and use k-fold cross validation to optimize the loss function.
+ - We will remove all the existing training objects and have only ships for the object detection.
  - We will use the test set images to see if the algorithm is able to what's needed. 
  
  
