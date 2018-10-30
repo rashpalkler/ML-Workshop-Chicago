@@ -1,10 +1,15 @@
 # Vision
-Provide the ability to recognize images of ships to track location and prevent piracy.
+Provide the ability to recognize images of ships and then be able to track location and prevent piracy based on known bad routes.
 
 # Datasets
 Availabe at https://www.kaggle.com/c/airbus-ship-detection/data
+Data set downloaded to S3
 
 
+
+
+
+## needs updating
 # Modeling Strategy
 - Break up events into types of crime. These are as follows. Each new day will be cross-referenced against a multi-class classification model that predicts each block for it's likelihood of having any of 7 types of criminal activity.
     - Kidnapping
