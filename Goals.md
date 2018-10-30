@@ -15,7 +15,10 @@ Data set downloaded to S3
  - We will create a validation set from the training set and use k-fold cross validation to optimize the loss function.
  - We will use the test set images to see if the algorithm is able to what's needed. 
  
- More Steps:
+ More Steps: (Possibly Iteration 2)
+
+ - Data Augmentation - generate more images by transposing, rotating images 
+ - Pre-Processing/Data Preparation Steps to remove noise, align the data with the process outlined in the Object Detection Sage Maker   notebook
 
 # End Goal
 
